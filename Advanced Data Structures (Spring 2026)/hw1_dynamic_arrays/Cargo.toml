@@ -1,0 +1,9 @@
+[package]
+name = "hw1_dynamic_arrays"
+version = "0.1.0"
+edition = "2024"
+default-run = "hw1_dynamic_arrays"
+
+[dependencies]
+csv = "1.4.0"
+serde = { version = "1.0.228", features = ["derive"] }
